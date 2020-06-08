@@ -13,3 +13,4 @@ install:
 script:
   - dub test -b unittest-cov
   - ./doveralls
+  - bash <(curl -s https://codecov.io/bash) 
